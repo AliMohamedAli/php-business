@@ -5,7 +5,7 @@
 html,
 body {
   height: 100%; }
-  
+
 .breadcrumbs a:hover{color:white;}
 
 html {
@@ -7857,7 +7857,10 @@ body #content .modal .modal-dialog .modal-content .input-group .form-control:not
 /************* PAGE HEADER **************/
 /****************************************/
 .pageheader {
-  position: relative; }
+  position: relative; 
+  background-color: rgba(0,0,0,0.3);
+  padding: 0px 10px;
+  }
   .pageheader h2 {
     display: inline-block;
     color: rgba(255, 255, 255, 0.8);

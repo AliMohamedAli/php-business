@@ -6,6 +6,9 @@ error_reporting(E_STRICT | E_ALL);
 // Include the initialization file
 include 'config.php';
 include 'lib/getCampaigns.php';
+include 'lib/tables.php';
+require_once 'lib/class/KeywordData.class.php';
+require_once 'lib/class/AdWordsAdapter.class.php';
 require_once 'lib/credentialHandler.php';
 require_once 'init.php';
 
@@ -14,13 +17,14 @@ require_once ADWORDS_UTIL_PATH . '/ReportUtils.php';
 try {
   
   checkLogout();
-
-  $credentials = getCredentials();  
+  $credentials = getCredentials();
   $CLIENT_ID = $credentials[0];
   $CLIENT_SECRET = $credentials[1];
   $REFRESH_TOKEN = $credentials[2];
   $DEVELOPER_TOKEN = $credentials[3];
   $CLIENT_CUSTOMER_ID = $credentials[4];
+
+  $adwordsData = new AdWordsAdapter($CLIENT_ID,$CLIENT_SECRET,$REFRESH_TOKEN,$DEVELOPER_TOKEN,$CLIENT_CUSTOMER_ID);
 
   saveSession();
 
@@ -40,11 +44,14 @@ try {
   RunExample($user);
 
   // Download the report to a file in the same directory as the example.
-  $filePath = dirname(__FILE__) . '/report.csv';
-  $reportFormat = 'CSV';
+  $filePath = dirname(__FILE__) . '/report.xml';
+  $reportFormat = 'XML';
 
   // Run the example.
-  DownloadCriteriaReportWithAwqlExample($user, $filePath, $reportFormat);  
+  $keyData = DownloadCriteriaReportWithAwqlExample($user, $filePath, $reportFormat);
+
+  drawTable($keyData);
+
   print('<select name="charts" style="float:left">
     <option name="null" value="null" disabled selected>Select Criteria: </option>
     <option name="costs" value="Costs">Costs</option>
@@ -54,6 +61,8 @@ try {
     <div id="chart_div" style="float:left;top: 23px;left: -113px;"></div>');
 } catch (Exception $e) {
   printf("An error has occurred: %s\n", $e->getMessage());
+  session_destroy();
+  Header("Location: registerForm.php");
 }
 
 
@@ -78,7 +87,7 @@ tr:nth-child(odd) {background: cornsilk}
   
   (function($){
     $(function(){
-      lastRow();
+      //lastRow();
       sortCol();
       $('select').on('change', function() {
         loadGoogleCharts();

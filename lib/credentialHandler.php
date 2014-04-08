@@ -40,8 +40,8 @@ function getCredentials(){
 }
 
 function saveSession(){
-  if(!isset($_SESSION['customer'])){   
-    if(isset($_POST['client_id'])){      
+  if(!isset($_SESSION['customer'])){
+    if(isset($_POST['client_id'])){
       $_SESSION['customer'] = "user_logged";
       $_SESSION['client_id'] = $_POST['client_id'];
       $_SESSION['client_secret'] = $_POST['client_secret'];
@@ -120,10 +120,47 @@ function readCSV($filename, $header=false) {
   }
   fclose($handle);
 }
+
+function readXML($filePath){
+  $xml=simplexml_load_file($filePath);
+  $keywordData;
+  $keywords;
+  $count = 0;
+  foreach ($xml->table->row as $row) {
+    $keywordData = array(
+    "keywordID" => (string)($row['keywordID']),
+    "keywordPlacement" => (string)($row['keywordPlacement']),
+    "criteriaType" => (string)($row['criteriaType']),
+    "campaignID" => (string)($row['campaignID']),
+    "campaign" => (string)($row['campaign']),
+    "adGroupID" => (string)($row['adGroupID']),
+    "impressions" => (string)($row['impressions']),
+    "clicks" => (string)($row['clicks']),
+    "costs" => floatval($row['cost'])
+    );
+    $keywords[$count]=$keywordData;
+    $count++;
+  }
+  $keywordDataHead;
+  $keywordHeaders;
+  $counter = 0;
+  foreach($xml->table->columns->column as $column){
+    $keywordDataHead = array(
+      $column['display']
+    );
+    $keywordHeaders[$counter]=$keywordDataHead;
+    $counter++;
+  }
+
+  $keyData = new KeywordData($keywords,$keywordHeaders);
+  return $keyData;
+}
+
 function RunExample(AdWordsUser $user) {
   $customerService = $user->GetService("CustomerService");
   $customer = $customerService->get();
 }
+
 function DownloadCriteriaReportWithAwqlExample(AdWordsUser $user, $filePath,
     $reportFormat) {
   // Prepare a date range for the last week. Instead you can use 'LAST_7_DAYS'.
@@ -149,7 +186,9 @@ function DownloadCriteriaReportWithAwqlExample(AdWordsUser $user, $filePath,
 
   printf("Report was downloaded to '%s'.\n", $filePath);
 
-  readCSV($filePath,true);
+  return readXML($filePath);
+
+  //readCSV($filePath,true);
 
 }
 ?>
