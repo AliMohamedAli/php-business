@@ -162,10 +162,18 @@ function RunExample(AdWordsUser $user) {
 }
 
 function DownloadCriteriaReportWithAwqlExample(AdWordsUser $user, $filePath,
-    $reportFormat) {
+    $reportFormat,$month) {
   // Prepare a date range for the last week. Instead you can use 'LAST_7_DAYS'.
-  $dateRange = sprintf('%d,%d',
-      date('Ymd', strtotime('-90 day')), date('Ymd', strtotime('-1 day')));
+
+  if($month==null){      
+    $dateRange = sprintf('%d,%d',
+        date('Ymd', strtotime('-90 day')), date('Ymd', strtotime('-1 day')));
+  }else{
+    if($month=="jan"){
+      $dateRange = "20140301,20140401";
+    }
+    
+  }
 
   // DATE RANGE
   // 20140101,20140301 [ JAN 1 - MAR 1]

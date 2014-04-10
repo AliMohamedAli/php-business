@@ -5,6 +5,8 @@ class KeywordData{
 	private $keywords = array();
 	private $keywordHeaders = array();
 	private $keyPercents = array();
+	private $keyPercent;
+	private $keyCosts;
 	private $sumkeys=0;
 	private $sumimps=0;
 	private $sumclicks=0;
@@ -85,9 +87,26 @@ class KeywordData{
 				}				
 				$keyPercents[$count]=$percents;
 				$count++;
-			}			
+			}
 		return $keyPercents;
 	}
+
+	public function setCosts($keyCosts){
+		$this->keyCosts = $keyCosts;
+	}
+
+	public function getCosts(){
+		return $this->keyCosts;
+	}
+
+	public function setPercent($keyPercent){
+		$this->keyPercent = $keyPercent;
+	}
+
+	public function getPercent(){
+		return $this->keyPercent;
+	}
+	
 }
 
 ?>

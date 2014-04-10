@@ -88,14 +88,13 @@ require_once ADWORDS_UTIL_PATH . '/ReportUtils.php';
         $reportFormat = 'XML';
 
         // Run the example.
-        $keyData = DownloadCriteriaReportWithAwqlExample($user, $filePath, $reportFormat);
-
-        print($reportFormat);
+        //$month="jan";
+        $month=null;
+        $keyData = DownloadCriteriaReportWithAwqlExample($user, $filePath, $reportFormat, $month);
 
       } catch (Exception $e) {
         printf("An error has occurred: %s\n", $e->getMessage());
         session_destroy();
-        Header("Location: login.html");
       }
     ?>
 
@@ -569,31 +568,13 @@ require_once ADWORDS_UTIL_PATH . '/ReportUtils.php';
                               print("<li style=\"text-transform:capitalize;\"><span class=\"badge badge-outline\" style=\"border-color: #fff;\"></span>".$val);
                           }
                           if($in==1){
-                            if($val!=0)
+                            if($val!=0){
                               print(" <small>".round($val, 2)."</small></li>");
+                            }
                           }
                         }
                       }
                     ?>
-                    <script>
-                      // Morris donut chart
-                      <?php 
-                      echo "
-                        Morris.Donut({
-                          element: 'browser-usage',
-                          data: [
-                            {label: 'Chrome', value: 25},
-                            {label: 'Safari', value: 20},
-                            {label: 'Firefox', value: 15},
-                            {label: 'Opera', value: 5},
-                            {label: 'Internet Explorer', value: 10},
-                            {label: 'Other', value: 25}
-                          ],
-                          colors: ['#00a3d8', '#2fbbe8', '#72cae7', '#d9544f', '#ffc100', '#1693A5']
-                        });
-                        ";
-                      ?>
-                    </script>
                     </ul>
                   </div>
                   <!-- /tile body --> 
@@ -664,6 +645,20 @@ require_once ADWORDS_UTIL_PATH . '/ReportUtils.php';
         $(this).removeClass('flip');
       });
 
+      Morris.Bar({
+        element: 'statistics-chart',
+        data:[
+          {y: 'Movil', a: 75, b:65, c:80},
+          {y: 'Android', a: 50, b:40, c:55},
+          {y: 'Web', a: 75, b:65, c:40},
+          {y: 'App', a: 100, b:90, c:110}
+        ],
+        xkey: 'y',
+        ykeys: ['a','b','c'],
+        labels: ['Impressions', 'Clicks', 'Cost'],
+        barColors: ['#ff4a43','#1693A5','#a2d200']
+      });
+
       // Initialize flot chart
       var d1 =[ [1, 715],
             [2, 985],
@@ -692,7 +687,7 @@ require_once ADWORDS_UTIL_PATH . '/ReportUtils.php';
                 [12, 1320]
       ];
       var months = ["January", "February", "March", "April", "May", "Juny", "July", "August", "September", "October", "November", "December"];
-
+/*
       // flot chart generate
       var plot = $.plotAnimator($("#statistics-chart"), 
         [
@@ -771,7 +766,7 @@ require_once ADWORDS_UTIL_PATH . '/ReportUtils.php';
         
         legend: { show: false}
       });
-
+*/
       $(window).resize(function() {
         // redraw the graph in the correctly sized div
         plot.resize();
@@ -868,15 +863,34 @@ require_once ADWORDS_UTIL_PATH . '/ReportUtils.php';
       },1000);
 
       // Morris donut chart
+      <?php
+      print("var keyNamePercent=[];var keyNumPercent=[];\n");
+        $keyNamePercent=array();
+        $keyNumPercent=array();
+        $cnt=0;
+        foreach($percentages as $percentArrays){
+          foreach($percentArrays as $in=>$val){                 
+            if($in==0){
+              if($percentArrays[$in+1]!=0)
+                print("keyNamePercent[".$cnt."]=\"".$val."\";\n");
+            }
+            if($in==1){
+              if($val!=0){
+                print("keyNumPercent[".$cnt."]=".$val.";\n");
+              }
+            }
+          }
+            $cnt++;
+        }
+       ?>
       Morris.Donut({
         element: 'browser-usage',
         data: [
-          {label: "Chrome", value: 25},
-          {label: "Safari", value: 20},
-          {label: "Firefox", value: 15},
-          {label: "Opera", value: 5},
-          {label: "Internet Explorer", value: 10},
-          {label: "Other", value: 25}
+          {label: keyNamePercent[1], value: parseFloat(keyNumPercent[1]).toFixed(2)},
+          {label: keyNamePercent[2], value: parseFloat(keyNumPercent[2]).toFixed(2)},
+          {label: keyNamePercent[3], value: parseFloat(keyNumPercent[3]).toFixed(2)},
+          {label: keyNamePercent[5], value: parseFloat(keyNumPercent[5]).toFixed(2)},
+          {label: keyNamePercent[6], value: parseFloat(keyNumPercent[6]).toFixed(2)}
         ],
         colors: ['#00a3d8', '#2fbbe8', '#72cae7', '#d9544f', '#ffc100', '#1693A5']
       });
