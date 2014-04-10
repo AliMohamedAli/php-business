@@ -2,7 +2,7 @@
 function checkLogout(){
 	if(isset($_POST['logout'])){
 		session_destroy();
-		Header("Location: registerForm.php");
+		Header("Location: login.html");
 	}
 }
 function getCredentials(){
@@ -134,8 +134,8 @@ function readXML($filePath){
     "campaignID" => (string)($row['campaignID']),
     "campaign" => (string)($row['campaign']),
     "adGroupID" => (string)($row['adGroupID']),
-    "impressions" => (string)($row['impressions']),
-    "clicks" => (string)($row['clicks']),
+    "impressions" => (int)($row['impressions']),
+    "clicks" => (int)($row['clicks']),
     "costs" => floatval($row['cost'])
     );
     $keywords[$count]=$keywordData;

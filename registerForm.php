@@ -9,13 +9,6 @@ form{text-align:left;}
 <body>
 	<div>
 		<form method="POST" action="ReportWithAwql.php">
-			<?php
-			if(isset($_GET['exception'])){
-				$e = $_GET['exception'];				
-  				printf("An error has occurred: %s\n", $e->getMessage());
-			}
-			?>
-
 			<label>Client ID</label><input type="text" name="client_id" size="100"/><br/>
 			<label>Client Secret</label><input type="text" name="client_secret" size="100"/><br/>
 			<label>Developer Token</label><input type="text" name="developer_token" size="100"/><br/>
