@@ -547,7 +547,7 @@ require_once ADWORDS_UTIL_PATH . '/ReportUtils.php';
 
                   <!-- tile header -->
                   <div class="tile-header">
-                    <h1><strong>Keyword</strong> Performance</h1>
+                    <h1><strong>Costs</strong> Percentage</h1>
                     <div class="controls">
                       <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
                       <a href="#" class="remove"><i class="fa fa-times"></i></a>
@@ -632,6 +632,10 @@ require_once ADWORDS_UTIL_PATH . '/ReportUtils.php';
 
     <script>
     $(function(){
+      $('#statistics-chart').hover(function(){
+      $('div.morris-hover-point:contains("Impressions")').text($('div.morris-hover-point:contains("Impressions")').text()+"mil");});
+
+
       $('span.badge.badge-outline').eq(0).css("border-color","#00a3d8");
       $('span.badge.badge-outline').eq(1).css("border-color","#1693A5");
       $('span.badge.badge-outline').eq(2).css("border-color","#2fbbe8");
@@ -644,19 +648,50 @@ require_once ADWORDS_UTIL_PATH . '/ReportUtils.php';
       },function(){
         $(this).removeClass('flip');
       });
+ <?php
+  $costs = $keyData->getCosts();
+  print("var nCostArray = []; var vCostArray = [];\n");
+  $c=0;
+  foreach($costs as $data){
+    foreach($data as $in=>$val){
+      if($in==0){                          
+        print("nCostArray[".$c."]=\"".$val."\";");
+      }else{
+        print("vCostArray[".$c."]=\"".$val."\";\n");
+      }
+    }
+    $c++;
+  }
 
-      Morris.Bar({
-        element: 'statistics-chart',
-        data:[
-          {y: 'Movil', a: 75, b:65, c:80},
-          {y: 'Android', a: 50, b:40, c:55},
-          {y: 'Web', a: 75, b:65, c:40},
-          {y: 'App', a: 100, b:90, c:110}
+  $imps = $keyData->getImpressions();
+  print("var nImpArray = []; var vImpArray = [];\n");
+  $c=0;
+  foreach($imps as $data){
+    foreach($data as $in=>$val){
+      if($in==0){                          
+        print("nImpArray[".$c."]=\"".$val."\";");
+      }else{
+        print("vImpArray[".$c."]=\"".round(($val/1000),2)."\";\n");
+      }
+    }
+    $c++;
+  }
+  ?>
+  Morris.Bar({
+              element: 'statistics-chart',
+              data:[   
+          {y: nCostArray[0], a: vCostArray[0], b:vImpArray[0]},
+          {y: nCostArray[1], a: vCostArray[1], b:vImpArray[1]},
+          {y: nCostArray[2], a: vCostArray[2], b:vImpArray[2]},
+          {y: nCostArray[3], a: vCostArray[3], b:vImpArray[3]},
+          {y: nCostArray[4], a: vCostArray[4], b:vImpArray[4]},
+          {y: nCostArray[5], a: vCostArray[5], b:vImpArray[5]},
+          {y: nCostArray[6], a: vCostArray[6], b:vImpArray[6]}
         ],
         xkey: 'y',
-        ykeys: ['a','b','c'],
-        labels: ['Impressions', 'Clicks', 'Cost'],
-        barColors: ['#ff4a43','#1693A5','#a2d200']
+        ykeys: ['a','b'],
+        labels: ['Cost', 'Impressions'],
+        barColors: ['#ff4a43','#1693A5']
       });
 
       // Initialize flot chart

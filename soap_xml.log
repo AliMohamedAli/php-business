@@ -54195,3 +54195,3279 @@ Server: GSE
   </soap:Body>
 </soap:Envelope>
 
+[Apr 11 2014 08:08:36.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_UFzep8oozVYeQg6irNwRfXi6HEPKgno30K1rEC-BEGoQA5n8ZD4epF3Ubt HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:08:36 GMT
+Expires: Fri, 11 Apr 2014 13:08:36 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c40810a8980adb050200005b05</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>216</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:15:57.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_VuCbiHnkg8_hTArBgNzlYW1Y50IFbbqlVAwvxK4nOw-yUWIX3hrNtw6BPz HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:15:57 GMT
+Expires: Fri, 11 Apr 2014 13:15:57 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4225c12c80adb04a600006db8</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>235</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:16:17.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_WQORUqgrTT7KiUy-a9ITS1tX0778AnI0lLBdJmUQ3BBgkrJWDEHK_7IjtS HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:16:17 GMT
+Expires: Fri, 11 Apr 2014 13:16:17 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4238911780adb04a600006db8</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>230</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:21:53.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_Vjk_SzU77K-dPotsxAPGo0OoWR9zLDIjZBiqtXdByc1U8D3z2mxOPriYyo HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:21:53 GMT
+Expires: Fri, 11 Apr 2014 13:21:53 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4379491880adb3a660000103a</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>230</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:21:57.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_WGGHLBeBxQnvd8JvhuSRZYfhwxh7O3iRSkLOZhbWXi7nTGxTm2h2b_v_4F HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:21:57 GMT
+Expires: Fri, 11 Apr 2014 13:21:57 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c437d665180adb3a660000103a</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>160</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:22:01.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_UT2lkSRXNdxeY65YrUP8vZkUim8jQazHpJ98BfLDMXuaQ2a5nCpSTZRz-- HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:22:01 GMT
+Expires: Fri, 11 Apr 2014 13:22:01 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c43814be080adb3a660000103a</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>159</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:22:06.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_Wgh50Jss3hByz4loEhQI7NUmdybzSxXWvggGlg_yQgn_WH-CGATy7vCFyt HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:22:06 GMT
+Expires: Fri, 11 Apr 2014 13:22:06 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c43855f1700adb4662000004cd</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>202</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:24:24.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_WX6_tQ3upCJc_WfexJutb1Uf_mvIeJgOx_U_-mQlZqw_U4HIsM2C9JIE2o HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:24:24 GMT
+Expires: Fri, 11 Apr 2014 13:24:24 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4408e9a680adb212900006c14</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>167</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:46:34.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_UF1sr3x_sqtTg6G5eFTEBAbeW9KaNeVUAful8ZqpvpElpv6gsFUjnxOGGK HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:46:34 GMT
+Expires: Fri, 11 Apr 2014 13:46:34 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c48fdbb0880adb052a000077c6</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>221</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:49:10.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_Wld8vPiTK65fVFe6QXIRtsFSDKT2-DPQQu5Rp_jZfQxKHXfsPJSCZYfo4U HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:49:10 GMT
+Expires: Fri, 11 Apr 2014 13:49:10 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4992681180adb4662000004cd</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>246</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:49:13.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_XzV9_5vkAkQIm9y_CzJMbJFbvNi81H8wx1xKy3uwEpT_0VmPHTugRy8GBm HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:49:13 GMT
+Expires: Fri, 11 Apr 2014 13:49:13 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4994d23b80adb04a600006db8</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>162</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:50:17.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_UhnN6VxokX5pcuSz68TSM7YuQVwLu9QhJeUeagW0pgwkjJxe_gXuN4MX1g HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:50:16 GMT
+Expires: Fri, 11 Apr 2014 13:50:16 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c49d1cb1e80adb04a600006db8</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>177</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:58:04.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_W7LbK5q1vW8THSBQrXMnHUC1Bc0nfIsea1ie8wfMfHCkkd4M1ltCKTJEyY HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:58:04 GMT
+Expires: Fri, 11 Apr 2014 13:58:04 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4b8f799a00adb4662000004cd</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>218</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:58:30.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_XdjhkcCo-ahUl7LtsTwt3d6KrAyY9EPPN7g8y9uulIaKz-BBldf5W0qVwT HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:58:30 GMT
+Expires: Fri, 11 Apr 2014 13:58:30 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4ba85bf680adb212900006c14</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>162</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:58:41.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_VhENRjc3ZHJ7NcvHPIA4gmAckQ28KO4bd_EoFDduufTfwLmQNB6VlFhpRi HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:58:40 GMT
+Expires: Fri, 11 Apr 2014 13:58:40 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4bb2785780adb04a600006db8</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>172</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 08:59:06.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_UXVIRTl3ZnzcwoCYocPhbYo-S032oW0SrSTYUs0DKFaOHBe_iOpzHgNjnf HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 13:59:06 GMT
+Expires: Fri, 11 Apr 2014 13:59:06 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4bca897980adb4662000004cd</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>304</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:07:01.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_UR3Pim52zJTEooyp4P-arur0PRJfyawTpNvRZQYzUINzhv3K7QpTUq3v0V HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:07:01 GMT
+Expires: Fri, 11 Apr 2014 14:07:01 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 430
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4d90133000adb050200005b05</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>206</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:07:38.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_WGj0ADfJCi-HzTXwQyRRqjIOB3OUmM58TlA5rsmcsP9M39otBAdxA4aG68 HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:07:38 GMT
+Expires: Fri, 11 Apr 2014 14:07:38 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4db3545580adb050200005b05</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>333</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:08:06.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_X7TuDGV-BJaoL2Zi2BqmrgkNi00WlAyZKhIXJhW_0D3JuRsNLC4Rg0cc_2 HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:08:06 GMT
+Expires: Fri, 11 Apr 2014 14:08:06 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 430
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4dcd9e1200adb050200005b05</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>163</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:09:01.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_U_YGAK4QTCxf0NBWZzBefQeMMIBDJaN_jL-8NL3jBfHH4XNdU7P8R4hfX5 HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:09:01 GMT
+Expires: Fri, 11 Apr 2014 14:09:01 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4e0223a080adb052a000077c6</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>166</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:09:48.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_XTLX7TE-Ftog9svk4UAUpLu7Q90DQMxUIJJ5keZC-Z46z1ocIUexxaGkCi HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:09:48 GMT
+Expires: Fri, 11 Apr 2014 14:09:48 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4e2f664c00adb3a660000103a</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>205</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:10:42.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_VCOoQJCDZVdZLNu7xndY6VY4PVlS9hmHY8c_LDOmnCUehhTf-eHmhBl-6b HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:10:42 GMT
+Expires: Fri, 11 Apr 2014 14:10:42 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4e628ff400adb4662000004cd</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>161</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:11:46.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_Uh7ZbsyvZ4GExCDQXwjBwsBaaY1dxNxu6RXC1yhyOQjgUSJMi4gEVmJhDX HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:11:46 GMT
+Expires: Fri, 11 Apr 2014 14:11:46 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4e9fc42a80adb052a000077c6</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>160</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:12:26.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_UTcTfo_dP5F3EJPP6lpeaeyUmTxwfiCinQLiFcnvA3J8nDABTEK-WIyPZo HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:12:26 GMT
+Expires: Fri, 11 Apr 2014 14:12:26 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4ec5620c80adb212900006c14</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>160</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:13:58.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_U2H3LMth5IB30Ak0ubtKBxVCNzqPNWqDqNc1mShTM2terSsV6pouGwAc8Q HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:13:58 GMT
+Expires: Fri, 11 Apr 2014 14:13:58 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4f1d595600adb04a600006db8</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>158</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:14:09.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_VrveYe9lfqrNrmKbD-Ukn62MyUIEjUHiFHD0zHMB56a2HXFoTZAhoptOE2 HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:14:09 GMT
+Expires: Fri, 11 Apr 2014 14:14:09 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4f279c8880adb3a660000103a</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>198</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:15:06.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_X3akCaqRJliCHW4zcxjKhCMS67fRVTUSEOr6Nt342--hCgGQaHdP2iCYX1 HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:15:06 GMT
+Expires: Fri, 11 Apr 2014 14:15:06 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4f5e7d5cc0adb3a660000103a</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>219</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:17:51.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_VyLWbJnp1LsAmqdGvxXMRoKejh2oJTJ5v4OYYGXiNVJ5eNZ2naz4TX_FGL HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:17:51 GMT
+Expires: Fri, 11 Apr 2014 14:17:51 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c4ffc149f80adb3a660000103a</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>158</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:18:29.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_V2OjJZNZcpXDdaHnk3kb6yYI4S9llbWK21m0pYbBRbgNpbGcrz_SkwI6VS HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:18:29 GMT
+Expires: Fri, 11 Apr 2014 14:18:29 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c502021df00adb212900006c14</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>210</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:19:47.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_UtpE2Gcn0Gvrb9Sc9oLmPGiKsy0cTQQtfDF7mVDhHf8O8OnOIWWFlzkQ6t HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:19:47 GMT
+Expires: Fri, 11 Apr 2014 14:19:47 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c506a17f400adb052a000077c6</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>286</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:20:24.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_XA8usScXwVRBX5WuJdtxKQFeoqrKRCA2_e2wxEKQoQCfvOVhUGWh7v1-rk HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:20:24 GMT
+Expires: Fri, 11 Apr 2014 14:20:24 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c508de5f800adb4662000004cd</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>203</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:24:46.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_WibhQ5vvvOXsZdAsYruYWNwINfqFgqvFZjsLpqdOHhg-qDSJqjnxTSOT0D HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:24:46 GMT
+Expires: Fri, 11 Apr 2014 14:24:46 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c518735b300adb3a660000103a</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>164</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:25:16.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_WT_KuAAHxO_aWPyrS_y2mGbaX3oRfmhkanEnLZTpt44Zk2pBqtIYarxoPy HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:25:16 GMT
+Expires: Fri, 11 Apr 2014 14:25:16 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c51a43e5100adb04a600006db8</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>247</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:25:33.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_XU_gmnCtpHSualTp9O25wzgzILjOKBVGv2deeduM8CKB6wkZmcCYbbTtVP HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:25:33 GMT
+Expires: Fri, 11 Apr 2014 14:25:33 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c51b4167800adb04a600006db8</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>232</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:26:11.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_W-HEOO4M3ej7bNFvbiRp6sAShxX68GMVXcvgNosbnWktqoG4ANAj9f2PCn HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:26:11 GMT
+Expires: Fri, 11 Apr 2014 14:26:11 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c51d89e4680adb212900006c14</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>219</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:27:20.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_V80yjj8PcNb3iyNK9yd8Wl9_MBE-E7fpqQ2yOqvg5QDPN4jHtMl_bi-ls6 HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:27:20 GMT
+Expires: Fri, 11 Apr 2014 14:27:20 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c521a43b200adb050200005b05</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>161</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:47:54.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_Uu4bXeEn8gCczhcFULh3YtApDqPr38AIjg9mLlxcuoHhd5SuKBXW6htM9D HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:47:54 GMT
+Expires: Fri, 11 Apr 2014 14:47:54 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c56b30a9400adb212900006c14</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>204</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:49:34.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_W4wje3TN9Y7TNQBwVkOTdy3AgQsManJm1J4x3ExTgs5BxZYAAlPVHTN1lT HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:49:34 GMT
+Expires: Fri, 11 Apr 2014 14:49:34 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c57126d0900adb4662000004cd</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>222</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:55:59.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_X_f37x8pxmkRVUcPtJw3sCLBZQFL8f4itqsiTYzKi5uTLI1fXewJEZuUf1 HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:55:59 GMT
+Expires: Fri, 11 Apr 2014 14:55:59 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c5881c74580adb050200005b05</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>203</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:57:02.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_U2B6tv02k744H0Zaq22QOcShGkEJ1TOtTmwCgwFk8Ge13slcDZwvctZT94 HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:57:02 GMT
+Expires: Fri, 11 Apr 2014 14:57:02 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c58bd3ea900adb052a000077c6</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>223</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 09:57:17.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_Vb_H2iWF-Mb6QXF_xNw9cK4cAlwbzE6JadkqXPkoo1YdlfFh5SEyVUPLZE HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 14:57:17 GMT
+Expires: Fri, 11 Apr 2014 14:57:17 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c58cc520900adb052a000077c6</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>161</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 10:00:01.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_VvR6UPHauQ5s_qmPLBTRw9a0-cdmDKUbzJ_UCy3ThIrUjd-m9kQVblgpyc HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 15:00:01 GMT
+Expires: Fri, 11 Apr 2014 15:00:01 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c59689dff80adb212900006c14</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>211</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 10:00:32.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_VDAdFV-1duyNxEHdw7xj4jJNzzs4jBpyukFKlbLi9r6eO_U4ZhxwY8IT81 HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 15:00:32 GMT
+Expires: Fri, 11 Apr 2014 15:00:32 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c5986084580adb3a660000103a</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>163</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 10:06:50.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_U_bgmkjD65bak3mAa5IJwhdykcHXKni-zPeov_FekGcfx4ppp3HySdd3Dh HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 15:06:50 GMT
+Expires: Fri, 11 Apr 2014 15:06:50 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c5aee2d4b00adb052a000077c6</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>214</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 10:07:38.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_Vnw55_ZgFMw9fQN86dYFX3ws6_fePm5Hcn49u1IHW8TY54h71veFL5rx6d HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 15:07:38 GMT
+Expires: Fri, 11 Apr 2014 15:07:38 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c5b1c39de00adb212900006c14</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>161</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 10:11:24.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_VVX5pEJPVvv2GOEA-nB9jpqE8dB7O3jgHIMQcMJaQvxoR603oPS23etNhL HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 15:11:24 GMT
+Expires: Fri, 11 Apr 2014 15:11:24 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c5bf3ddf800adb3a660000103a</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>209</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 10:12:24.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_XqrAemdXWaB2_mfIUrTle1hJkFgMFPEYQls-m4FaGBwIeGQbeRThUmPSbn HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 15:12:24 GMT
+Expires: Fri, 11 Apr 2014 15:12:24 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 429
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c5c2d128000adb050200005b05</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>207</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 10:13:26.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_VUpelzGxpHVjdintg3OuKrNOHdm8gYtmA-SJAglhH1sTBkCZaa4u8avrpR HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 15:13:26 GMT
+Expires: Fri, 11 Apr 2014 15:13:26 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c5c67d34580adb4662000004cd</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>201</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 10:14:28.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_Vc7FaC8Q3Ou0cnzBuI7jKw5S4vXdc2nbSphP-ljJA1mAG_K36IE0tS6eI7 HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 15:14:28 GMT
+Expires: Fri, 11 Apr 2014 15:14:28 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 432
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c5ca341a080adb04a600006db8</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>159</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 10:15:16.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_Ubwb7Km-TFDN3ncS30t33bVaJWsvSwSPEKFJkOWIxhc9nrcgOLUhFZ2vvX HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 15:15:16 GMT
+Expires: Fri, 11 Apr 2014 15:15:16 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 431
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c5cd0c96380adb050200005b05</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>159</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 10:15:36.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_W-xZ7KK_Rdn_VM9ZOhEoE6SiiHwFqDMYxThuc2DljUWbM_7sPPeoww5fhe HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 15:15:36 GMT
+Expires: Fri, 11 Apr 2014 15:15:36 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 433
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c5ce45b2780adb3a660000103a</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>165</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 11 2014 10:26:38.000000 - INFO] POST /api/adwords/mcm/v201402/CustomerService?access_token=ya29.1.AADtN_X5Jl2RjolWJkHYomCldrSBzVsvxaYLRLCu53BOwxwXXiSyrNA7cgAYw0_8 HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.3.3, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 336
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns2:clientCustomerId>542-898-8567</ns2:clientCustomerId>
+      <ns2:developerToken>L6oLZINEd5p06CvWp99H1w</ns2:developerToken>
+      <ns2:userAgent>Mobincube (AwApi-PHP/5.2.1, Common-PHP/5.2.1, PHP/5.3.3)</ns2:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get/>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 11 Apr 2014 15:26:38 GMT
+Expires: Fri, 11 Apr 2014 15:26:38 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 430
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402" xmlns="https://adwords.google.com/api/adwords/mcm/v201402">
+      <ns2:requestId>0004f6c5f5b2ca800adb050200005b05</ns2:requestId>
+      <ns2:serviceName>CustomerService</ns2:serviceName>
+      <ns2:methodName>get</ns2:methodName>
+      <ns2:operations>0</ns2:operations>
+      <ns2:responseTime>202</ns2:responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/mcm/v201402" xmlns:ns2="https://adwords.google.com/api/adwords/cm/v201402">
+      <rval>
+        <customerId>5428988567</customerId>
+        <currencyCode>EUR</currencyCode>
+        <dateTimeZone>Europe/Madrid</dateTimeZone>
+        <descriptiveName>dmayans.mobincube</descriptiveName>
+        <companyName>Mobincube</companyName>
+        <canManageClients>false</canManageClients>
+        <testAccount>false</testAccount>
+        <autoTaggingEnabled>false</autoTaggingEnabled>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+

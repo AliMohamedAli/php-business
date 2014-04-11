@@ -91,12 +91,32 @@ class KeywordData{
 		return $keyPercents;
 	}
 
-	public function setCosts($keyCosts){
-		$this->keyCosts = $keyCosts;
+	public function getImpressions(){
+		$keys = $this->keywords;
+		$imps = array();
+		$impressions = array();
+		foreach($keys as $key){
+			foreach($keys as $in=>$val){
+				$imps[0]=$key["keywordPlacement"];
+				$imps[1]=$key["impressions"];
+			}
+			array_push($impressions, $imps);
+		}
+		return $impressions;
 	}
 
 	public function getCosts(){
-		return $this->keyCosts;
+		$keys = $this->keywords;
+		$mycosts = array();
+		$costs = array();
+		foreach($keys as $key){
+			foreach($keys as $in=>$val){
+				$mycosts[0]=$key["keywordPlacement"];
+				$mycosts[1]=$key["costs"];
+			}
+			array_push($costs, $mycosts);			
+		}
+		return $costs;
 	}
 
 	public function setPercent($keyPercent){
